@@ -4,22 +4,22 @@ end
 puts new_hash
 
 def my_hash 
- student = {name: "Max"}
+{name: "Max"}
 end
 puts my_hash
 
 def pioneer
-pioneer = {name: "Grace Hopper"}
+{name: "Grace Hopper"}
 end
 puts pioneer
 
 def id_generator
- id_generator = {id: 1}
+{id: 1}
 end
 puts id_generator
 
 def my_hash_creator(key, value)
-hash = {key => value}
+{key => value}
 end
 puts my_hash_creator(4, 5)
 
@@ -27,13 +27,10 @@ def read_from_hash(hash, key)
 hash[key]
 end
 
-def update_counting_hash(hash, key) do
+def update_counting_hash(hash, key)
+hash[key] ? hash[key] += 1 : hash[key] = 1
+hash
 end
 
-#   if hash[key]
-#   p hash[key] += 1
-#  else
-#  p hash[key] = 1
-#  end
 
 
