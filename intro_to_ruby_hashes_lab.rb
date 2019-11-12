@@ -4,12 +4,12 @@ end
 puts new_hash
 
 def my_hash 
- student = {name: "Max"}
+{name: "Max"}
 end
 puts my_hash
 
 def pioneer
-pioneer = {name: "Grace Hopper"}
+{name: "Grace Hopper"}
 end
 puts pioneer
 
