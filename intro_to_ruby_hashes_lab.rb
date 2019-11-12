@@ -19,7 +19,7 @@ end
 puts id_generator
 
 def my_hash_creator(key, value)
-hash = {key => value}
+{key => value}
 end
 puts my_hash_creator(4, 5)
 
