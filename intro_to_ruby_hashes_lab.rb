@@ -14,7 +14,7 @@ end
 puts pioneer
 
 def id_generator
- id_generator = {id: 1}
+{id: 1}
 end
 puts id_generator
 
